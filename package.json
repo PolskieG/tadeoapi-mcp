@@ -1,0 +1,45 @@
+{
+  "name": "api-tadeo-mcp",
+  "version": "1.0.0",
+  "description": "API Tadeo - MCP para Shapes.inc",
+  "author": "Tadeo",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "shapes",
+    "shapes-inc",
+    "api-tadeo",
+    "giphy",
+    "tenor",
+    "html",
+    "jsx",
+    "javascript",
+    "typescript",
+    "php",
+    "cpp",
+    "zip",
+    "ai"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mime-types": "^3.0.1",
+    "zod": "^4.0.17"
+  }
+}
