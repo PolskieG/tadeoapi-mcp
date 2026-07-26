@@ -1,0 +1,63 @@
+{
+  "name": "API Tadeo - MCP",
+  "id": "api-tadeo-mcp",
+  "version": "1.0.0",
+  "description": "Servidor MCP con herramientas para generación de código, búsqueda, GIFs, compresión ZIP y otras capacidades.",
+  "author": "Tadeo",
+  "homepage": "github.com/PolskieG/tadeoapi-mcp",
+  "license": "MIT",
+  "entry": "server.js",
+  "runtime": "node>=20",
+  "tools": [
+    {
+      "id": "status",
+      "name": "Estado",
+      "description": "Comprueba que el servidor MCP está funcionando."
+    },
+    {
+      "id": "about",
+      "name": "Información",
+      "description": "Muestra información del servidor."
+    },
+    {
+      "id": "gifs",
+      "name": "GIF Search",
+      "description": "Busca GIFs."
+    },
+    {
+      "id": "code-generator",
+      "name": "Code Generator",
+      "description": "Genera proyectos de código."
+    },
+    {
+      "id": "zip-builder",
+      "name": "ZIP Builder",
+      "description": "Crea archivos ZIP."
+    },
+    {
+      "id": "deep-search",
+      "name": "Deep Search",
+      "description": "Realiza búsquedas en múltiples proveedores configurados."
+    },
+    {
+      "id": "bot-admin",
+      "name": "Bot Admin",
+      "description": "Herramientas administrativas para tu bot."
+    },
+    {
+      "id": "image-generator",
+      "name": "Image Generator",
+      "description": "Genera imágenes."
+    },
+    {
+      "id": "video-generator",
+      "name": "Video Generator",
+      "description": "Genera videos."
+    },
+    {
+      "id": "ai-router",
+      "name": "AI Router",
+      "description": "Enruta solicitudes a distintos modelos."
+    }
+  ]
+}
